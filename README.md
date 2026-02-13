@@ -35,6 +35,11 @@ Data Structuring: pandas
 Frontend: HTML (minimal upload UI)
 Deployment: Render (free tier)
 
+Setup Environment (VS Code)
+python -m venv venv
+venv\Scripts\activate     # Windows
+pip install fastapi uvicorn pdfplumber pandas openai python-multipart
+
 Project Structure
 research-portal/
 │
