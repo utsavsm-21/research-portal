@@ -79,6 +79,11 @@ Multi-year data
 All numeric columns present in the table (e.g., FY20–FY25) are extracted
 Values are preserved as-is without aggregation or transformation
 
+To run the file-
+First be inside the venv
+use this command to run- uvicorn app.main:app --host 0.0.0.0 --port 10000
+you will see a http link, press it and it will open web browser 
+
 Deployment
 The application is deployed using Render (free tier) and accessible via a public URL.
 
